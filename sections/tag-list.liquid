@@ -1,12 +1,3 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+{% for tag in product.tags %}
+  {{ tag }}
+{% endfor %}
