@@ -1,0 +1,15 @@
+{% {% schema %}
+    {
+        "name" : "tags-list",
+        "setting" : []
+    }
+{% endschema %}%}}
+
+
+<div class="ProductPage-label">
+    {% for tag in product.tags %}
+      {% if product.tags contains "label__" %}
+        <div class="ProductPage-labelItem">{{ tag | remove: "label__" }}</div>
+      {% endif %}
+    {% endfor %}
+  </div>
