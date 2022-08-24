@@ -124,9 +124,8 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
+              "text": "ようこそベッド屋さんへ",
               "text_alignment": "center",
               "color_scheme": "background-1",
               "link": ""
